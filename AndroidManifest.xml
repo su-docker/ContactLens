@@ -13,6 +13,7 @@
 		<receiver android:name="CLAppWidgetProvider">
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            <action android:name="com.pongal.contactlens.APPWIDGET_REFRESH" />
 			</intent-filter>
 			<meta-data android:name="android.appwidget.provider"
 				android:resource="@xml/cl_app_widget_info" />
